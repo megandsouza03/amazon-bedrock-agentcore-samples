@@ -21,7 +21,7 @@ export const mcpServerCreate = () => {
   mcpServer.registerTool("subtract",
     {
       title: "Subtraction Tool",
-      description: "Add two numbers",
+      description: "Subtracts two numbers",
       inputSchema: { a: z.number(), b: z.number() }
     },
     async ({ a, b }) => ({
